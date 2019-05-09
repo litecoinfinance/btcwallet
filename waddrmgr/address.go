@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/litecoinfinance/btcd/btcec"
+	"github.com/litecoinfinance/btcd/txscript"
+	"github.com/litecoinfinance/btcutil"
+	"github.com/litecoinfinance/btcutil/hdkeychain"
 	"github.com/btcsuite/btcwallet/internal/zero"
 	"github.com/btcsuite/btcwallet/walletdb"
 )

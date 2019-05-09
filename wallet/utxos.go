@@ -6,8 +6,8 @@
 package wallet
 
 import (
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/litecoinfinance/btcd/txscript"
+	"github.com/litecoinfinance/btcd/wire"
 	"github.com/btcsuite/btcwallet/walletdb"
 )
 

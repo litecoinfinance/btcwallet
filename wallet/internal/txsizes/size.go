@@ -5,8 +5,8 @@
 package txsizes
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/litecoinfinance/btcd/blockchain"
+	"github.com/litecoinfinance/btcd/wire"
 
 	h "github.com/btcsuite/btcwallet/internal/helpers"
 )

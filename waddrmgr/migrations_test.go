@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/litecoinfinance/btcd/chaincfg"
 	"github.com/btcsuite/btcwallet/walletdb"
 )
 
