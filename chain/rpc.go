@@ -17,8 +17,8 @@ import (
 	"github.com/litecoinfinance/btcutil"
 	"github.com/litecoinfinance/btcutil/gcs"
 	"github.com/litecoinfinance/btcutil/gcs/builder"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/wtxmgr"
 )
 
 // RPCClient represents a persistent client connection to a bitcoin RPC server

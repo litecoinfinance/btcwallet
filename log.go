@@ -12,11 +12,11 @@ import (
 
 	"github.com/litecoinfinance/btcd/rpcclient"
 	"github.com/btcsuite/btclog"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/rpc/rpcserver"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/litecoinfinance/btcwallet/chain"
+	"github.com/litecoinfinance/btcwallet/rpc/legacyrpc"
+	"github.com/litecoinfinance/btcwallet/rpc/rpcserver"
+	"github.com/litecoinfinance/btcwallet/wallet"
+	"github.com/litecoinfinance/btcwallet/wtxmgr"
 	"github.com/jrick/logrotate/rotator"
 	"github.com/litecoinfinance/neutrino"
 )

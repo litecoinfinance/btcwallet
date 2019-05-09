@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/litecoinfinance/btcd/chaincfg"
-	"github.com/btcsuite/btcwallet/internal/prompt"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/internal/prompt"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 const (

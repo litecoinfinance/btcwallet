@@ -10,8 +10,8 @@ import (
 
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 // MakeMultiSigScript creates a multi-signature script that can be redeemed with

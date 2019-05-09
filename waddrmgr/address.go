@@ -13,8 +13,8 @@ import (
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcutil"
 	"github.com/litecoinfinance/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/internal/zero"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 // AddressType represents the various address types waddrmgr is currently able

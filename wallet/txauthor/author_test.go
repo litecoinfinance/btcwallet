@@ -9,10 +9,10 @@ import (
 
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	. "github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
+	. "github.com/litecoinfinance/btcwallet/wallet/txauthor"
+	"github.com/litecoinfinance/btcwallet/wallet/txrules"
 
-	"github.com/btcsuite/btcwallet/wallet/internal/txsizes"
+	"github.com/litecoinfinance/btcwallet/wallet/internal/txsizes"
 )
 
 func p2pkhOutputs(amounts ...btcutil.Amount) []*wire.TxOut {

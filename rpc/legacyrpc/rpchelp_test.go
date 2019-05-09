@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"github.com/litecoinfinance/btcd/btcjson"
-	"github.com/btcsuite/btcwallet/internal/rpchelp"
+	"github.com/litecoinfinance/btcwallet/internal/rpchelp"
 )
 
 func serverMethods() map[string]struct{} {

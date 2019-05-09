@@ -9,9 +9,9 @@ import (
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
 	"github.com/litecoinfinance/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/wtxmgr"
 )
 
 // RecoveryManager maintains the state required to recover previously used

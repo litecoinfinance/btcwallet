@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/litecoinfinance/btcd/btcjson"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/wallet"
+	"github.com/litecoinfinance/btcwallet/chain"
+	"github.com/litecoinfinance/btcwallet/wallet"
 	"github.com/btcsuite/websocket"
 )
 

@@ -8,7 +8,7 @@ package wallet
 import (
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcd/wire"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 // OutputSelectionPolicy describes the rules for selecting an output from the

@@ -7,7 +7,7 @@ import (
 
 	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
 	"github.com/litecoinfinance/btcd/wire"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/litecoinfinance/btcwallet/wtxmgr"
 )
 
 // createTx is a helper method to create random transactions that spend

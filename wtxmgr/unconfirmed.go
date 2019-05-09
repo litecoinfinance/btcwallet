@@ -8,7 +8,7 @@ package wtxmgr
 import (
 	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
 	"github.com/litecoinfinance/btcd/wire"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 // insertMemPoolTx inserts the unmined transaction record.  It also marks

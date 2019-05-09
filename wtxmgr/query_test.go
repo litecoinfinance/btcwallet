@@ -15,7 +15,7 @@ import (
 	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 type queryState struct {

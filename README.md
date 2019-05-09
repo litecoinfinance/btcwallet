@@ -1,7 +1,7 @@
 btcwallet
 =========
 
-[![Build Status](https://travis-ci.org/btcsuite/btcwallet.png?branch=master)](https://travis-ci.org/btcsuite/btcwallet)
+[![Build Status](https://travis-ci.org/litecoinfinance/btcwallet.png?branch=master)](https://travis-ci.org/litecoinfinance/btcwallet)
 [![Build status](https://ci.appveyor.com/api/projects/status/88nxvckdj8upqr36/branch/master?svg=true)](https://ci.appveyor.com/project/jrick/btcwallet/branch/master)
 
 btcwallet is a daemon handling bitcoin wallet functionality for a
@@ -62,7 +62,7 @@ Install the latest MSIs available here:
 
 https://github.com/litecoinfinance/btcd/releases
 
-https://github.com/btcsuite/btcwallet/releases
+https://github.com/litecoinfinance/btcwallet/releases
 
 ### Windows/Linux/BSD/POSIX - Build from source
 
@@ -96,8 +96,8 @@ For a first time installation, the project and dependency sources can be
 obtained manually with `git` and `glide` (create directories as needed):
 
 ```
-git clone https://github.com/btcsuite/btcwallet $GOPATH/src/github.com/btcsuite/btcwallet
-cd $GOPATH/src/github.com/btcsuite/btcwallet
+git clone https://github.com/litecoinfinance/btcwallet $GOPATH/src/github.com/litecoinfinance/btcwallet
+cd $GOPATH/src/github.com/litecoinfinance/btcwallet
 glide install
 ```
 
@@ -105,7 +105,7 @@ To update an existing source tree, pull the latest changes and install the
 matching dependencies:
 
 ```
-cd $GOPATH/src/github.com/btcsuite/btcwallet
+cd $GOPATH/src/github.com/litecoinfinance/btcwallet
 git pull
 glide install
 ```
@@ -183,14 +183,14 @@ PS> $editor $env:LOCALAPPDATA\Btcwallet\btcwallet.conf
 Linux/BSD/POSIX (Installed from source):
 ```bash
 $ cp $GOPATH/src/github.com/litecoinfinance/btcd/sample-btcd.conf ~/.btcd/btcd.conf
-$ cp $GOPATH/src/github.com/btcsuite/btcwallet/sample-btcwallet.conf ~/.btcwallet/btcwallet.conf
+$ cp $GOPATH/src/github.com/litecoinfinance/btcwallet/sample-btcwallet.conf ~/.btcwallet/btcwallet.conf
 $ $EDITOR ~/.btcd/btcd.conf
 $ $EDITOR ~/.btcwallet/btcwallet.conf
 ```
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/btcsuite/btcwallet/issues)
+The [integrated github issue tracker](https://github.com/litecoinfinance/btcwallet/issues)
 is used for this project.
 
 ## GPG Verification Key

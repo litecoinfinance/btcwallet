@@ -5,7 +5,7 @@ import (
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
 )
 
 // BlockFilterer is used to iteratively scan blocks for a set of addresses of

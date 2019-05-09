@@ -30,7 +30,7 @@ import (
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/internal/legacy/rename"
+	"github.com/litecoinfinance/btcwallet/internal/legacy/rename"
 )
 
 const (

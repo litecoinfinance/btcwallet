@@ -9,8 +9,8 @@ import (
 	"github.com/litecoinfinance/btcd/chaincfg"
 	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
 	"github.com/litecoinfinance/btcd/wire"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	_ "github.com/litecoinfinance/btcwallet/walletdb/bdb"
 )
 
 var (

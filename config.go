@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/internal/legacy/keystore"
-	"github.com/btcsuite/btcwallet/netparams"
-	"github.com/btcsuite/btcwallet/wallet"
+	"github.com/litecoinfinance/btcwallet/internal/cfgutil"
+	"github.com/litecoinfinance/btcwallet/internal/legacy/keystore"
+	"github.com/litecoinfinance/btcwallet/netparams"
+	"github.com/litecoinfinance/btcwallet/wallet"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/litecoinfinance/neutrino"
 )

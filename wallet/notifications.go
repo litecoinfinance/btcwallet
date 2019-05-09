@@ -12,9 +12,9 @@ import (
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/wtxmgr"
 )
 
 // TODO: It would be good to send errors during notification creation to the rpc

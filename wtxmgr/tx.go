@@ -14,7 +14,7 @@ import (
 	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 // Block contains the minimum amount of data to uniquely identify any block on

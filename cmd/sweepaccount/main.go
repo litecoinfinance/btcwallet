@@ -18,10 +18,10 @@ import (
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/netparams"
-	"github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
+	"github.com/litecoinfinance/btcwallet/internal/cfgutil"
+	"github.com/litecoinfinance/btcwallet/netparams"
+	"github.com/litecoinfinance/btcwallet/wallet/txauthor"
+	"github.com/litecoinfinance/btcwallet/wallet/txrules"
 	"github.com/jessevdk/go-flags"
 )
 

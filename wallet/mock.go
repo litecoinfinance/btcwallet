@@ -6,8 +6,8 @@ import (
 	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/chain"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
 )
 
 type mockChainClient struct {

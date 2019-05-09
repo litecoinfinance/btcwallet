@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/walletdb"
+	_ "github.com/litecoinfinance/btcwallet/walletdb/bdb"
+	"github.com/litecoinfinance/btcwallet/wtxmgr"
 	"github.com/jessevdk/go-flags"
 )
 

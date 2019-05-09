@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/litecoinfinance/btcd/chaincfg"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/walletdb/migration"
+	"github.com/litecoinfinance/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/walletdb/migration"
 )
 
 // versions is a list of the different database versions. The last entry should

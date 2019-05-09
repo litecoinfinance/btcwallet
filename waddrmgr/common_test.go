@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/litecoinfinance/btcd/chaincfg"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	"github.com/litecoinfinance/btcwallet/walletdb"
+	_ "github.com/litecoinfinance/btcwallet/walletdb/bdb"
 )
 
 var (

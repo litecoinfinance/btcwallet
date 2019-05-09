@@ -10,7 +10,7 @@ import (
 
 	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 // CreditRecord contains metadata regarding a transaction credit for a known

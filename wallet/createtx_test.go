@@ -16,10 +16,10 @@ import (
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/walletdb"
+	_ "github.com/litecoinfinance/btcwallet/walletdb/bdb"
+	"github.com/litecoinfinance/btcwallet/wtxmgr"
 )
 
 // TestTxToOutput checks that no new address is added to he database if we

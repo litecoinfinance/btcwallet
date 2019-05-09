@@ -17,8 +17,8 @@ import (
 	"github.com/litecoinfinance/btcd/chaincfg"
 	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/snacl"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 	"github.com/davecgh/go-spew/spew"
 )
 

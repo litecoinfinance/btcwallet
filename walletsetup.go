@@ -15,12 +15,12 @@ import (
 	"github.com/litecoinfinance/btcd/chaincfg"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/internal/legacy/keystore"
-	"github.com/btcsuite/btcwallet/internal/prompt"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	"github.com/litecoinfinance/btcwallet/internal/legacy/keystore"
+	"github.com/litecoinfinance/btcwallet/internal/prompt"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/wallet"
+	"github.com/litecoinfinance/btcwallet/walletdb"
+	_ "github.com/litecoinfinance/btcwallet/walletdb/bdb"
 )
 
 // networkDir returns the directory name of a network directory to hold wallet

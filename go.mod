@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcwallet
+module github.com/litecoinfinance/btcwallet
 
 require (
 	github.com/litecoinfinance/btcd v0.0.0-20190213025234-306aecffea32

@@ -8,7 +8,7 @@ import (
 	"github.com/litecoinfinance/btcd/blockchain"
 	"github.com/litecoinfinance/btcd/wire"
 
-	h "github.com/btcsuite/btcwallet/internal/helpers"
+	h "github.com/litecoinfinance/btcwallet/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.

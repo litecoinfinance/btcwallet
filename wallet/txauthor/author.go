@@ -12,10 +12,10 @@ import (
 	"github.com/litecoinfinance/btcd/txscript"
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
+	"github.com/litecoinfinance/btcwallet/wallet/txrules"
 
-	h "github.com/btcsuite/btcwallet/internal/helpers"
-	"github.com/btcsuite/btcwallet/wallet/internal/txsizes"
+	h "github.com/litecoinfinance/btcwallet/internal/helpers"
+	"github.com/litecoinfinance/btcwallet/wallet/internal/txsizes"
 )
 
 // InputSource provides transaction inputs referencing spendable outputs to

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/litecoinfinance/btcd/chaincfg"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 // applyMigration is a helper function that allows us to assert the state of the

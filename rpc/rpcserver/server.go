@@ -8,11 +8,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//   https://github.com/btcsuite/btcwallet/blob/master/rpc/documentation/api.md
+//   https://github.com/litecoinfinance/btcwallet/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//   https://github.com/btcsuite/btcwallet/blob/master/rpc/documentation/serverchanges.md
+//   https://github.com/litecoinfinance/btcwallet/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -31,14 +31,14 @@ import (
 	"github.com/litecoinfinance/btcd/wire"
 	"github.com/litecoinfinance/btcutil"
 	"github.com/litecoinfinance/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/netparams"
-	pb "github.com/btcsuite/btcwallet/rpc/walletrpc"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/litecoinfinance/btcwallet/chain"
+	"github.com/litecoinfinance/btcwallet/internal/cfgutil"
+	"github.com/litecoinfinance/btcwallet/internal/zero"
+	"github.com/litecoinfinance/btcwallet/netparams"
+	pb "github.com/litecoinfinance/btcwallet/rpc/walletrpc"
+	"github.com/litecoinfinance/btcwallet/waddrmgr"
+	"github.com/litecoinfinance/btcwallet/wallet"
+	"github.com/litecoinfinance/btcwallet/walletdb"
 )
 
 // Public API version constants
