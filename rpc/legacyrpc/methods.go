@@ -1589,16 +1589,28 @@ func signRawTransaction(icmd interface{}, w *wallet.Wallet, chainClient *chain.R
 	switch *cmd.Flags {
 	case "ALL":
 		hashType = txscript.SigHashAll
+	case "ALL|FORKID":
+		hashType = txscript.SigHashAll | txscript.SigHashForkID
 	case "NONE":
 		hashType = txscript.SigHashNone
+	case "NONE|FORKID":
+		hashType = txscript.SigHashNone | txscript.SigHashForkID
 	case "SINGLE":
 		hashType = txscript.SigHashSingle
+	case "SINGLE|FORKID":
+		hashType = txscript.SigHashSingle | txscript.SigHashForkID
 	case "ALL|ANYONECANPAY":
 		hashType = txscript.SigHashAll | txscript.SigHashAnyOneCanPay
+	case "ALL|FORKID|ANYONECANPAY":
+		hashType = txscript.SigHashAll | txscript.SigHashForkID | txscript.SigHashAnyOneCanPay
 	case "NONE|ANYONECANPAY":
 		hashType = txscript.SigHashNone | txscript.SigHashAnyOneCanPay
+	case "NONE|FORKID|ANYONECANPAY":
+		hashType = txscript.SigHashNone | txscript.SigHashForkID | txscript.SigHashAnyOneCanPay
 	case "SINGLE|ANYONECANPAY":
 		hashType = txscript.SigHashSingle | txscript.SigHashAnyOneCanPay
+	case "SINGLE|FORKID|ANYONECANPAY":
+		hashType = txscript.SigHashSingle | txscript.SigHashForkID | txscript.SigHashAnyOneCanPay
 	default:
 		e := errors.New("Invalid sighash parameter")
 		return nil, InvalidParameterError{e}
